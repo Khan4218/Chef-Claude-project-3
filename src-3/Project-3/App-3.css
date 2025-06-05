@@ -1,0 +1,379 @@
+/* This css is for Chef claude project */
+
+body {
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  background: rgb(255, 255, 255);
+  margin: 0;
+
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.image {
+  padding-right: 10px;
+  height: 64px;
+}
+
+.text {
+  font-family: "inter", sans-serif;
+  position: relative;
+  top: -4px;
+  padding-top: 20px;
+  font-size: 28px;
+  color: rgb(12, 11, 11);
+}
+
+
+.add-ingredient-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 35px;
+  /* padding-left: 25px; */
+  /* align-items: center; */
+}
+
+
+.input {
+  height: 40px;
+  width: 50%;
+  font-size: 17px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 2px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0 10px;
+  outline: none;
+}
+
+.button {
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.list {
+  position: relative;
+  top: -4px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: rgb(62, 142, 169);
+}
+
+.about-list {
+  position: relative;
+  bottom: -7px;
+  font-size: 25px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(239, 232, 232);
+  margin-top: 210px;
+}
+
+.card>h1 {
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  font-weight: 550;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+
+.card>p {
+  padding-left: 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: small;
+  color: rgb(74, 109, 120);
+}
+
+.card-button {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+  position: relative;
+  top: -48px;
+}
+
+.card-button>button {
+  height: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(231, 52, 52);
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.get-recipe-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background: #F0EFEB;
+  padding: 10px 28px;
+  margin-top: 20%;
+}
+
+.get-recipe-container h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.get-recipe-container p {
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.get-recipe-container button {
+  border: none;
+  border-radius: 6px;
+  background: #D17557;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  color: #FAFAF8;
+  padding: 9px 17px;
+  font-family: Inter, sans-serif;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+/* 
+// this css is for contact  */
+
+/* body {
+  background-color: #0C4A6E;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  width: 200px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: 350px;
+}
+
+.card .avatar {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10%;
+  padding-bottom: 0;
+}
+
+.card .name {
+  margin-block: 13px;
+  color: #333333;
+}
+
+.card .info {
+  padding: 10px;
+}
+
+.card .favorite {
+  width: 25px;
+  cursor: pointer;
+}
+
+.card .contact {
+  font-size: 0.75rem;
+  color: gray;
+  margin-block: 7px;
+}
+
+.card .favorite-button {
+  border: none;
+  background: transparent;
+}
+
+.card .favorite-button:active {
+  transform: none;
+  box-shadow: none;
+} */
+
+
+/* This css is for forms  */
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+  background-color: #2DD4BF;
+  color: #262626;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  padding-inline: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+input {
+  border-radius: 100px;
+  border: 1px solid #0D9488;
+  height: 2rem;
+  text-indent: 10px;
+}
+
+button {
+  border-radius: 100px;
+  border: 1px solid #0D9488;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+  background-color: #115E59;
+  border-color: #042F2E;
+  color: white;
+}
+
+fieldset {
+  border: 1px solid #262626;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+
+} 
+
+fieldset>label {
+  display: flex;
+  align-items: center;
+} 
+
+state count css */
+
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #262626;
+  color: #D9D9D9;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.counter {
+  display: flex;
+  align-items: flex-end;
+  align-self: center;
+  margin-top: 40px;
+}
+
+.counter>button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #737373;
+  color: #D9D9D9;
+  font-size: 1.5rem;
+}
+
+.counter>button:hover {
+  background-color: #404040;
+  color: #D9D9D9;
+}
+
+.count {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #262626;
+  margin-block: 0 10px;
+  font-size: 2rem;
+}
+
+.plus {
+  margin-left: -20px;
+}
+
+.minus {
+  margin-right: -20px;
+  z-index: 1;
+} */
+
+
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+header {
+  height: 65px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-inline: 20px;
+  background-color: #dce6fd
+}
+
+header>img,
+header>p {
+  cursor: pointer;
+}
+
+section {
+  padding: 20px;
+} */

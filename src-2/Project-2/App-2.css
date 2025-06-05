@@ -1,0 +1,166 @@
+body {
+  padding: 20px;
+  font-family: Inter, sans-serif;
+  background: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.journal-header nav {
+  background-color: rgb(251, 78, 78);
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-left: 6px;
+  margin-right: 6px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.global-img {
+  height: 23px;
+  padding-right: 6px;
+
+}
+
+.text-head {
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+
+
+}
+
+.card-1 {
+  display: flex;
+  margin-bottom: 36px;
+
+}
+
+
+.container {
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.location-icon {
+  color: red;
+  margin-right: 5px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-left: 20px;
+
+
+}
+
+.card-img {
+  width: 250px;
+  height: 250px;
+
+}
+
+
+
+.item-1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.map-link {
+  font-size: 13px;
+  color: gray;
+  text-decoration: underline;
+}
+
+.country-name {
+  margin-right: 10px;
+  color: #1f1e1e;
+}
+
+.place-cont {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.place-title {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: -2px;
+}
+
+.place-dates {
+  font-size: 14px;
+  color: #070707;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.place-description {
+  color: black;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact-card {
+  flex-basis: 225px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.contact-card>img {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.contact-card>h3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.info-group {
+  display: flex;
+  align-items: center;
+}
+
+.info-group>img {
+  height: 11px;
+  margin-right: 8px;
+}
+
+.info-group>p {
+  margin-block: 3px;
+  font-size: 12px;
+  color: #2B283A;
+}

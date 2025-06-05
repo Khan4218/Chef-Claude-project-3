@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  background-color: #2DD4BF;
+}
+
+.input {
+  border-radius: 100px;
+  border: 1px solid black;
+  margin-block: 10px;
+  display: block;
+  height: 2rem;
+  text-indent: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+}
