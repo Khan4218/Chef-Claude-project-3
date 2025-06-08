@@ -5,7 +5,9 @@ export default function IngredientsList(props) {
   return (<section >
     <h2>Ingredients on hand:</h2>
     <ul className="ingredients-list" aria-live="polite">
-      {ingredientsListItems}
+      <div ref={props.ref}>
+        {ingredientsListItems}
+      </div>
     </ul>
   </section>)
 }
