@@ -3,10 +3,18 @@ import IngredientsList from "./IngredientsList";
 import ClaudeRecipe from "./ClaudeRecipe";
 import { getRecipeFromMistral } from "../data/ai";
 export default function Main() {
-  const [ingredients, setIngredients] = React.useState([])
+  const [ingredients, setIngredients] = React.useState(["chicken", "all the main spices", "corn", "heavy cream", "pasta"])
 
   const [recipeShown, setRecipeShown] = React.useState(false)
   const [recipeMarkdown, setRecipeMarkdown] = React.useState("")
+  const recipeSection = React.useRef(null)
+
+  React.useEffect(() => {
+    if (recipeShown && recipeSection.current !== null) {
+      recipeSection.current.scrollIntoView({ behavior: "smooth" })
+    }
+  }, [recipeShown])
+
 
   async function getRecipe() {
     const markdown = await getRecipeFromMistral(ingredients)
@@ -51,7 +59,10 @@ export default function Main() {
         <button className="button" >+ Add ingredient </button>
       </form>
 
-      {ingredients.length > 0 && <IngredientsList ingredients={ingredients} />}
+      {ingredients.length > 0 && <IngredientsList
+        ingredients={ingredients}
+        ref={recipeSection}
+      />}
       {renderRecipeSection()}
       {recipeShown && <ClaudeRecipe markdown={recipeMarkdown} />}
     </main>
