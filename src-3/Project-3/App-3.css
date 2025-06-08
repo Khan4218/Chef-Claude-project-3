@@ -159,6 +159,17 @@ body {
   cursor: pointer;
 }
 
+
+.get-recipe-container button:hover {
+  background: #b35c45;
+  color: white;
+}
+
+.get-recipe-container button:active {
+  transform: scale(0.98);
+  background: #944c34;
+}
+
 /* 
 // this css is for contact  */
 
