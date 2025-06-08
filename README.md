@@ -43,7 +43,7 @@
 - Markdown rendering for recipes
 - Using useEffect added a scrolling view to Get a recipe button
 
-🔗 **Live Demo**: [https://akbar-chef-claude-project-3.netlify.app/]https://akbar-chef-claude-project-3.netlify.app/
+🔗 **Live Demo**: [akbar-chef-claude-project-3][https://akbar-chef-claude-project-3.netlify.app/]
 📂 Folder: React-project-3
 
 
