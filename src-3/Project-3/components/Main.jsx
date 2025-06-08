@@ -3,7 +3,7 @@ import IngredientsList from "./IngredientsList";
 import ClaudeRecipe from "./ClaudeRecipe";
 import { getRecipeFromMistral } from "../data/ai";
 export default function Main() {
-  const [ingredients, setIngredients] = React.useState(["chicken", "all the main spices", "corn", "heavy cream", "pasta"])
+  const [ingredients, setIngredients] = React.useState([])
 
   const [recipeShown, setRecipeShown] = React.useState(false)
   const [recipeMarkdown, setRecipeMarkdown] = React.useState("")
