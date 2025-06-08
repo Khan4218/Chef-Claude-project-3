@@ -41,6 +41,7 @@
 - API integration with Hugging Face for recipe generation
 - Conditional rendering for loading and results
 - Markdown rendering for recipes
+- Using useEffect added a scrolling view to Get a recipe button
 
 🔗 **Live Demo**: [akbar-react-project-2.netlify.app](https://akbar-project-3-chef-claude.netlify.app/)
 📂 Folder: React-project-3
